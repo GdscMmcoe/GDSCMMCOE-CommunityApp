@@ -4,10 +4,37 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/GDSCMMCOECommunityApp/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_github.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_instagram.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_instagram_background.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_instagram_foreground.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_linkedin_background.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_linkedin_foreground.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_linkedin_vector.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_youtube_background.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/ic_youtube_foreground.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/drawable/selector.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/layout/activity_about_gdscactivity.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/layout/activity_dash_board.xml" value="0.14" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/layout/activity_main.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/layout/activity_team_page.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/layout/layout_nav_header.xml" value="0.16077898550724637" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/menu/menu_navigation_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_instagram.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_instagram_round.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_linkedin.xml" value="0.1" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_linkedin_round.xml" value="0.1" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_youtube.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/aarya/GDSCMMCOE-CommunityApp/app/src/main/res/mipmap-anydpi-v26/ic_youtube_round.xml" value="0.17222222222222222" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

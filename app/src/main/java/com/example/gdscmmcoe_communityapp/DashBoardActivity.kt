@@ -1,67 +1,28 @@
 package com.example.gdscmmcoe_communityapp
 
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import android.os.Bundle
-import com.example.gdscmmcoe_communityapp.R
-import android.content.Intent
-import com.example.gdscmmcoe_communityapp.DashBoardActivity
-import com.example.gdscmmcoe_communityapp.TeamPageActivity
-import com.example.gdscmmcoe_communityapp.AboutGDSCActivity
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.NavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.example.gdscmmcoe_communityapp.databinding.ActivityDashBoardBinding
 
 class DashBoardActivity : AppCompatActivity() {
-    var bottomNavigationView: BottomNavigationView? = null
+    private lateinit var navController: NavController
+    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var appBarConfigurationDrawer: AppBarConfiguration
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dash_board)
+        val binding = ActivityDashBoardBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        bottomNavigationView?.setOnNavigationItemSelectedListener OnNavigationItemSelectedListener@{ item ->
-            when(item.itemId) {
-                R.id.Home -> {
-                    // Respond to navigation item 1 reselection
-                    startActivity(Intent(applicationContext, AboutGDSCActivity::class.java))
-                    overridePendingTransition(0, 0)
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.Logo -> {
-                    // Respond to navigation item 2 reselection
-                    startActivity(Intent(applicationContext, AboutGDSCActivity::class.java))
-                    overridePendingTransition(0, 0)
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.Team -> {
-                    // Respond to navigation item 2 reselection
-                    startActivity(Intent(applicationContext, AboutGDSCActivity::class.java))
-                    overridePendingTransition(0, 0)
-                    return@OnNavigationItemSelectedListener true
-                }
-                else -> {
-                    return@OnNavigationItemSelectedListener false
+        drawerLayout = findViewById(R.id.drawerLayout)
+        binding.navigationMenu.setupWithNavController(navController)
 
-                }
-            }
-        }
-
-
-            /*
-            bottomNavigationView = findViewById(R.id.bottom_navigation)
-            bottomNavigationView.setSelectedItemId(R.id.Home)
-            bottomNavigationView.setOnNavigationItemSelectedListener(BottomNavigationView.OnNavigationItemSelectedListener { item ->
-                when (item.itemId) {
-                    R.id.Home -> return@OnNavigationItemSelectedListener true
-                    R.id.Logo -> {
-                        startActivity(Intent(applicationContext, AboutGDSCActivity::class.java))
-                        overridePendingTransition(0, 0)
-                        return@OnNavigationItemSelectedListener true
-                    }
-                    R.id.Team -> {
-                        startActivity(Intent(applicationContext, TeamPageActivity::class.java))
-                        overridePendingTransition(0, 0)
-                        return@OnNavigationItemSelectedListener true
-                    }
-                }
-                false
-            })
-             */
+        appBarConfigurationDrawer = AppBarConfiguration(setOf(R.id.homeFragment, R.id.aboutFragment, R.id.teamFragment), drawerLayout)
+        setupActionBarWithNavController(navController, appBarConfigurationDrawer)
     }
 }

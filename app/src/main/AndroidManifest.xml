@@ -3,6 +3,7 @@
     package="com.example.gdscmmcoe_communityapp">
 
     <application
+        android:name=".TeamApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
@@ -11,23 +12,24 @@
         android:theme="@style/Theme.GDSCMMCOECommunityApp">
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
-
-        <activity
-            android:name=".DashBoardActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+<!--    <activity
+            android:name=".DashBoardActivity"
+            android:exported="true" />
         <activity
             android:name=".AboutGDSCActivity"
             android:exported="false" />
         <activity
             android:name=".TeamPageActivity"
-            android:exported="false" />
+            android:exported="false">
+        </activity>-->
     </application>
 
 </manifest>

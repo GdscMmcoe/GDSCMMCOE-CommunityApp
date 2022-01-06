@@ -5,7 +5,7 @@
         android:icon="@drawable/ic_event"
         android:title="Events"/>
 
-    <item android:id="@+id/Resources"
+    <item android:id="@+id/resourcesFragment"
         android:icon="@drawable/ic_resources"
         android:title="Resources"/>
 

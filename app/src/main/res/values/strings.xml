@@ -5,4 +5,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="c_programming">C++ Programming</string>
     <string name="this_is_the_programming_language">This is the programming language</string>
+    <string name="there_are_no_upcoming_events">There are no upcoming events. \n Stay tuned for next updates!!</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="past_events">Past Events</string>
 </resources>

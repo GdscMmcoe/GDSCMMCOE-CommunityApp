@@ -1,0 +1,109 @@
+﻿1. What is GDSC? 
+Ans: Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.
+
+
+2. Are there any charges involved to be a part of the committee/community of GDSC?
+Ans: There are absolutely no charges involved to be a part of our committee, or even our community.  All of the events conducted by GDSC MMCOE are either sponsored by Google, or are funded by the college. We are, in no way, eligible to accept monetary transactions from any of our participants. You are encouraged to just interact and engage with their fellow peers to learn and grow together, and take part in the various activities we host and organize for you guys!
+
+
+3. What is the difference between being a part of the COMMUNITY and being a part of the COMMITTEE?
+Ans: A Committee is a group of people representing the college/institution to organize different activities under a student club. A Committee member is judged, and selected after reviewing their applications during the recruitment processes at the beginning of every year. On the other hand, a community member is a part of the GDSC Family and can easily participate in said events and engage with peers from far and near to improve their skills. 
+To answer this question in simpler terms, A COMMITTEE conducts events and sessions, which a COMMUNITY member can participate in and learn.
+
+
+4. How do I become a part of the COMMUNITY?
+Ans: Joining the community is very easy, and just a click away. Click on the link given below, and connect with us by clicking on the 'JOIN US' button. Log in with your Google Account (preferably your college ID) and enter the necessary details. Then sit back and enjoy the events we have to offer!
+https://gdsc.community.dev/marathwada-mitra-mandals-college-of-engineering-pune/
+
+
+5. What are the perks of being a COMMUNITY MEMBER?
+Ans: As a community member, you would:
+a. Be the first to receive updates about the events hosted by GDSC MMCOE.
+b. Become a part of a huge community of coders, techno-experts and enthusiasts; being in this community would help improve your skills as a whole.
+c. Interact and engage with the community, which keeps you updated with the trends and technologies, and inspires you to keep learning with your peers.
+d. Have a constant competition and learning scope with the people around you in the community environment.
+e. Participate in our sessions, webinars, contests, workshops, or even campaigns and add a Google Certified badge to your resumé.
+f. Be eligible for perks, swags and merchandise from Google itself. 
+g. Get a discounted rate upon limited Google certifications during the course of campaigns.
+h. Get a chance to showcase your skills and represent your college on a national/international forum.
+
+
+6. What are the perks of being a COMMITTEE MEMBER?
+Ans: As a committee member, you would:
+a. Be able to represent your college in every event hosted and get recognition for being a part of GDSC MMCOE.
+b. Be a part of the bigger picture; work in domain specific teams and visualize and create projects under said domain. 
+c. Be eligible for any and all merchandise provided by Google/the college for the entire team.
+d. Gain experience in organization of a team, hosting of events and managing and heading a team.
+e. Get all the perks offered by Google for any or all campaigns.
+f. Have opportunities to showcase your product and achievements on the official GDSC website, hosted by Google.
+g. Actively participate in all events, collaborating with GDSC MMCOE, and get a chance to win swags!
+h. Get to be in direct contact with Google Developers.
+i. Attend networking sessions and training sessions for leading the campaign from Google. 
+
+
+7. How can we connect with GDSC MMCOE?
+Ans: Connect with us on all of our social media platforms using the following links:
+Youtube: https://youtube.com/channel/UCLwzfI-P_ommZ_QMDGECmYQ
+Instagram: https://instagram.com/gdsc_mmcoe?utm_medium=copy_link
+LinkedIn: https://www.linkedin.com/in/gdsc-mmcoe-b1065b21b
+Discord: https://discord.gg/zjbyRdhR6g
+Follow us on Instagram, subscribe to us on Youtube and Connect with us via LinkedIn for updates and added connections! 
+If you have any queries, feel free to mail them to us on: gdsc@mmcoe.edu.in
+Want to contact us personally for any further doubts? 
+Text/Contact: +91 7350016624 (Ms. Rucha Kulkarni- Marketing Head, GDSC MMCOE)
+                        +91 7875495664 (Ms. Sayali Padmawar- Lead, GDSC MMCOE) 
+
+
+8. How do we participate in any event after joining the community?
+Ans: While participating in any of the events conducted by GDSC MMCOE, it is essential that you RSVP your presence while registering for it. 
+If you are a community member, you receive an email blast from us whenever we host an event on our forum. The RSVP link is included in the email, and all you have to do is fill that form by entering your details-half of which would be pre-entered for you. There you go! We will convey the meeting links and venues of the event to you, prior to the event once you RSVP for it.
+If you are not a member yet, no worries! We got you covered! We send WhatsApp updates and emails including the RSVP link, and you can follow the same steps to enroll yourself in the event easily!
+
+
+9. What are some of the events conducted by GDSCs around the nation?
+Ans: GDSC hosts some of the most exciting events, including national hackathons, seminars on recent technologies, campaigns on Google technologies like Cloud Computing and Android Development etc. Competitive Coding domain sends out weekly or monthly problem statements to keep the student mind invested, and projects under the ML/AI, web/android development to create a product from the knowledge received. 
+Learn more about the workings of GDSCs on: https://developers.google.com/community/gdsc
+
+
+10. Do we have to have any background knowledge/skills to be a part of the COMMUNITY?
+Ans: Absolutely not!  At GDSC, we believe that learning along the way with your peers is the best way to enlighten yourself. Surrounded by peers, you would have a mentor-mentee relationship with them; maintaining the sanctity of the learning environment. Educate yourself through the sessions we have to offer, and learn and grow with the community. All for free!
+
+
+11. What domains are covered under GDSC MMCOE?
+Ans: In its establishment year itself, GDSC MMCOE has managed to cover the following domains actively:
+a. Web Development
+b. Android Development
+c. Machine Learning
+d. Artificial Intelligence
+e. Competitive Coding
+f. Pre-Placement Training
+We believe that there is scope for growth, and we will spread our roots in many other trending technologies, only with the help of your active support and coordination. 
+
+
+12. Is it mandatory to take a part in any of the clubs in the college?
+Ans: None of the clubs, groups or student chapters are enforced by the college upon the students. Interested students, enthusiastic about the working and organization of clubs can enroll or participate in the activities conducted by them, or even apply for the position of a member of the clubs when the applications/recruitment starts. Enunciating upon the point again, it is not mandatory to be in any club. It is a matter of your interest and inclination.
+
+
+13. Can I be a member of multiple groups along with GDSC?
+Ans: Of course! At GDSC, we would never limit your opportunities and scopes of improvement. Feel free to be a part of several clubs and committees, participate, conduct and host events under them. 
+
+
+14. How do I join the GDSC COMMITTEE?
+Ans: The GDSC Committee is elected every year, after a thorough selection process and an interview. Interested candidates are asked to present their Github, LinkedIn and other abilities based upon the position they are applying for; and it is only after a critical analysis that the committee is chosen. However, This selection of this committee is scheduled at the beginning of an academic year. Hence, all current aspirants are requested to keep their applications on hold till the selections open next year.
+
+
+15. Do I have to be in every domain if I wish to be a community/committee member?
+Ans: Only if you want to!  All the members are open to the choices of selecting and working/participating under events of their areas of interest; meaning that for example, you are only interested in ML/AI, you can only work on related projects. There is no compulsion of any sorts regarding the domains any individual should undertake. If interested, a student can also participate and learn from all the domains available under GDSC too!
+
+
+
+
+So... What are you waiting for?
+| JOIN US |
+https://gdsc.community.dev/marathwada-mitra-mandals-college-of-engineering-pune/
+
+
+
+
+Regards,
+Google Developer Student Clubs, MMCOE Pune

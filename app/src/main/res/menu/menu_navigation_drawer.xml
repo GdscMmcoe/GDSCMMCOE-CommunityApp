@@ -9,7 +9,7 @@
         android:icon="@drawable/ic_resources"
         android:title="Resources"/>
 
-    <item android:id="@+id/FAQ"
+    <item android:id="@+id/faqsFragment"
         android:icon="@drawable/ic_faq"
         android:title="FAQs"/>
 

@@ -6,13 +6,138 @@
     android:layout_height="match_parent"
     tools:context=".AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/google_deve"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="top"
+        android:text="@string/about_header"
+        android:textAppearance="@style/google_deve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <!--        android:textAppearance="@style/join_our_co"--><![CDATA[
+        android:gravity="top"
+        />
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/webBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About Page"
-        android:textSize="@dimen/sp_30"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/Our_web"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instaLink"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/instaLink"
+        android:layout_width="40dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="instagram link"
+        android:src="@drawable/ic_instagram_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google_deve" />
+
+    <ImageView
+        android:id="@+id/LinkedinLink"
+        android:layout_width="41dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="18dp"
+        android:contentDescription="linkedin link"
+        android:src="@drawable/ic_linkedin_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/instaLink"
+        app:layout_constraintStart_toEndOf="@+id/instaLink"
+        app:layout_constraintTop_toTopOf="@+id/instaLink" />
+
+    <ImageView
+        android:id="@+id/youtubeLink"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="Youtube Link"
+        android:src="@drawable/ic_youtube_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/LinkedinLink"
+        app:layout_constraintStart_toEndOf="@+id/LinkedinLink"
+        app:layout_constraintTop_toTopOf="@+id/LinkedinLink" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:contentDescription="decorative image"
+        android:src="@drawable/frame_13__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webBtn"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/joinCommunity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webBtn" />
+
+    <Button
+        android:id="@+id/memberbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/memberLink"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="335dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Extra_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toTopOf="@+id/memberbtn"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/gdsc"
+        android:stateListAnimator="@android:anim/fade_in"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

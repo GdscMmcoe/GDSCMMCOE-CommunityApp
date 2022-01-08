@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.fragment) as NavHostFragment
         navController = navHostFragment.navController
-        setupActionBarWithNavController(navController)
+       setupActionBarWithNavController(navController)
 
         //Creating bottomNavigation
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation_view)

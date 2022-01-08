@@ -66,8 +66,8 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="@dimen/dp_10"
             android:autoLink="web"
             android:linksClickable="true"
@@ -75,7 +75,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView3"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_instagram_foreground" />
+            app:srcCompat="@drawable/ic_instagram" />
 
 
 

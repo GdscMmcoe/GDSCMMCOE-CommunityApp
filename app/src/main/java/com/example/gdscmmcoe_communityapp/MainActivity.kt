@@ -1,5 +1,7 @@
 package com.example.gdscmmcoe_communityapp
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.drawerlayout.widget.DrawerLayout
@@ -43,10 +45,41 @@ class MainActivity : AppCompatActivity() {
         appBarConfigurationDrawer = AppBarConfiguration(setOf(R.id.homeFragment, R.id.aboutFragment, R.id.teamFragment), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfigurationDrawer)
 
+        //Navigation Drawer Browser Intents
+
+        binding.navigationMenu.menu.getItem(1).intent =
+            openIntent("https://gdsc.community.dev/marathwada-mitra-mandals-college-of-engineering-pune/")
+
+        binding.navigationMenu.menu.getItem(4).intent =
+            openIntent("https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp")
+
+        binding.navigationMenu.menu.findItem(R.id.Instagram).intent =
+            openIntent("https://instagram.com/gdsc_mmcoe?utm_medium=copy_link")
+
+        binding.navigationMenu.menu.findItem(R.id.Linkedin).intent =
+            openIntent("https://www.linkedin.com/in/gdsc-mmcoe-b1065b21b")
+
+        binding.navigationMenu.menu.findItem(R.id.Youtube).intent =
+            openIntent("https://youtube.com/channel/UCLwzfI-P_ommZ_QMDGECmYQ")
+
+        binding.navigationMenu.menu.findItem(R.id.Github).intent =
+            openIntent("https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp")
+
+        binding.navigationMenu.menu.findItem(R.id.Discord).intent =
+            openIntent("https://discord.com/invite/eJnJdXw6sa")
+
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfigurationDrawer) || super.onSupportNavigateUp()
+    }
+
+    private fun openIntent(uri: String): Intent {
+        return Intent(
+            Intent.ACTION_VIEW,
+            Uri.parse(uri)
+        )
     }
 
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/Events"
-        android:icon="@drawable/ic_event"
-        android:title="Events"/>
-
     <item android:id="@+id/resourcesFragment"
         android:icon="@drawable/ic_resources"
         android:title="Resources"/>
+
+    <item android:id="@+id/Events"
+        android:icon="@drawable/ic_event"
+        android:title="Events"/>
 
     <item android:id="@+id/faqsFragment"
         android:icon="@drawable/ic_faq"
@@ -48,12 +48,16 @@
                     android:title="LinkedIn"/>
 
                 <item android:id="@+id/Youtube"
-                    android:icon="@drawable/ic_youtube_foreground"
+                    android:icon="@drawable/ic_youtube"
                     android:title="Youtube"/>
 
                 <item android:id="@+id/Github"
                     android:icon="@drawable/ic_github"
                     android:title="Github"/>
+
+                <item android:id="@+id/Discord"
+                    android:icon="@drawable/ic_discord"
+                    android:title="Discod"/>
             </menu>
         </item>
     </group>

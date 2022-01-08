@@ -45,6 +45,12 @@ class HomeFragment : Fragment() {
             startActivity(browserIntent)
         }
 
+        binding.tvViewPastEvents.setOnClickListener{
+            val viewEventsIntent = Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://gdsc.community.dev/marathwada-mitra-mandals-college-of-engineering-pune/"))
+            startActivity(viewEventsIntent)
+        }
+
         dashboardList = dashboard_constants.defaultDashboardList()
 
         // Set the adapter

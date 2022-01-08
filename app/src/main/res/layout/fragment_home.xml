@@ -100,8 +100,8 @@
             android:text="@string/past_events"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintHorizontal_bias="0.045"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -128,6 +128,17 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_begin="840dp" />
 
+        <TextView
+            android:id="@+id/tv_view_past_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_all"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.930"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

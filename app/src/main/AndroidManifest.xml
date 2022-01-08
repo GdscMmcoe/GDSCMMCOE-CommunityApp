@@ -19,17 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-<!--    <activity
-            android:name=".DashBoardActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AboutGDSCActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TeamPageActivity"
-            android:exported="false">
-        </activity>-->
     </application>
 
 </manifest>

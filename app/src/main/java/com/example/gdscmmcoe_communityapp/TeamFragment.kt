@@ -13,7 +13,6 @@ import com.example.gdscmmcoe_communityapp.adapter.TeamAdapter
 import com.example.gdscmmcoe_communityapp.databinding.TeamFragmentBinding
 import com.example.gdscmmcoe_communityapp.viewmodel.TeamPageViewModelFactory
 import com.example.gdscmmcoe_communityapp.viewmodel.TeamViewModel
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class TeamFragment : Fragment() {
@@ -25,10 +24,6 @@ class TeamFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private val teamAdapter: TeamAdapter by lazy { TeamAdapter() }
 
-
-    companion object {
-        fun newInstance() = TeamFragment()
-    }
 
     //private lateinit var viewModel: TeamViewModel
     private val viewModel: TeamViewModel by activityViewModels {
@@ -55,7 +50,7 @@ class TeamFragment : Fragment() {
         recyclerView.adapter = teamAdapter
 
         lifecycle.coroutineScope.launch {
-            viewModel.teamPage().collect() {
+            viewModel.teamPage().observe(viewLifecycleOwner) {
                 teamAdapter.setData(it)
             }
         }

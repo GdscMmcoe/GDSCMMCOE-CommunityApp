@@ -1,13 +1,14 @@
 package com.example.gdscmmcoe_communityapp.viewmodel
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import kotlinx.coroutines.flow.Flow
+import androidx.lifecycle.asLiveData
 import com.example.gdscmmcoe_communityapp.data.Team
 import com.example.gdscmmcoe_communityapp.data.TeamDao
 
 class TeamViewModel(private val teamDao: TeamDao) : ViewModel() {
-    fun teamPage(): Flow<List<Team>> = teamDao.getAll()
+    fun teamPage(): LiveData<List<Team>> = teamDao.getAll().asLiveData()
 }
 
 

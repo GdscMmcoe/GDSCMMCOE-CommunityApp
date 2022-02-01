@@ -4,12 +4,17 @@
 
 ### Problem Statement :-
 
-Google Developer Student Clubs was established in AY 2020. In the Period of pandemic it was tough to spread awareness , it’s goal and community expansion was limited.Indeed word of mouth and Social media are great platforms but we needed to have our own app for timely updates and a one place for all the things related to our club at our fingertips. Thus, this app can be used effectively for the same.
+Google Developer Student Clubs MMCOE was established in AY 2020. In the Period of pandemic it was tough to spread awareness , it’s goal and community expansion was limited.Indeed word of mouth and Social media are great platforms but we needed to have our own app for timely updates and a one place for all the things related to our club at our fingertips. Thus, this app can be used effectively for the same.
 
 ### Proposed Solution :-
 
 This very app is designed by our own team members, in which we aim towards updating about our upcoming events on the timeline as well as the revision of past events, we also share the useful resources , allowing us to contribute to any open source project if any, is being carried out. It gives an overview about the GDSC and many more. Students don't need to register themselves in order to use this app.
 
+## Screenshotes
+
+|<img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img1.jpg" alt="drawing" width="250"/> | <img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img2.jpg" alt="drawing" width="250"/> | <img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img3.jpg" alt="drawing" width="250"/> | 
+|:---:|:---:|:---:|
+|<img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img4.jpg" alt="drawing" width="250"/>|<img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img5.jpg" alt="drawing" width="250"/>|<img src="https://github.com/GdscMmcoe/GDSCMMCOE-CommunityApp/blob/main/images/img6.jpg" alt="drawing" width="250"/>|
 
 ### Functionality and Concepts Used :-
 
